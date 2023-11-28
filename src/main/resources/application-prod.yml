@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: ${JDBC_URL}
+    username: ${JDBC_USERNAME}
+    password: ${JDBC_PASSWORD}
+  jpa:
+    database: POSTGRESQL
